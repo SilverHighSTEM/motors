@@ -12,16 +12,19 @@ int main()
     motor(1,50);
     msleep(2617);
     ao();
-    msleep(750);
+    msleep(1000);
     motor(0,-50);
     motor(1,50);
     msleep(2617);
     ao();
-    msleep(750);
+    msleep(1000);
     motor(0,-50);
     motor(1,-50);
     msleep(5000);
     ao();
+    set_servo_position(0,1590);
+    set_servo_position(1,1800);
+    
     
     return 0;
 }
