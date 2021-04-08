@@ -1,0 +1,6 @@
+wait_for_light(1,50)
+motor(2,91)
+shut_down_in(6)
+wait_for_light(3,98)
+motor(4,96)
+shut_down_in(10)
